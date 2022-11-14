@@ -39,8 +39,8 @@ body{
 }
 /* ----------------------header------------------- */
 .header{
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ECECEC;
 
 }
@@ -56,19 +56,6 @@ body{
   margin-right: 50px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .header-logo{
   font-family: 'raleway', sans-serif ;
   font-weight: 700;
@@ -186,6 +173,10 @@ border: none;
 }
 
 /* ----------------------hero------------------- */
+.pre-hero{
+  background-color: #F5F5F5;
+  padding-top:94px;
+}
 .hero{
   background-color: #F5F5F5;
   padding-top: 94px;
@@ -193,7 +184,6 @@ border: none;
 }
 
 .hero-list{
-  margin-bottom: 94px;
   display: flex;
 }
 .hero-item:not(last-child) {
@@ -231,7 +221,7 @@ margin-bottom:50px;
 
 .our-team {
   background-color: var(--our-team);
-  padding: 94px 215px;
+  padding: 94px 0;
 }
 
 .hero-subtitle-2{
@@ -287,7 +277,7 @@ color: var(--color-75);
 /* ----------------------footer------------------- */
 .contacts{
   background-color: #2F303A;
-  padding: 60px auto 215px;
+  padding: 60px 0;
 }
 
 .contacts-item-address{
@@ -302,7 +292,6 @@ color: #FFFFFF;
 }
 
 .menu{
-  margin-top: 94px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -445,4 +434,8 @@ color: var(--color-75);
   display: block;
   margin-bottom: 9px ;
  
+}
+.gallery{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
