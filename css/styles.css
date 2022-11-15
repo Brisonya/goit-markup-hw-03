@@ -183,6 +183,10 @@ border: none;
   padding-bottom: 94px;
 }
 
+.hero-item{
+  width: 270px;
+}
+
 .hero-list{
   display: flex;
 }
@@ -277,7 +281,6 @@ color: var(--color-75);
 /* ----------------------footer------------------- */
 .contacts{
   background-color: #2F303A;
-  padding: 60px 0;
 }
 
 .contacts-item-address{
@@ -433,7 +436,9 @@ color: var(--color-75);
 .contacts-item{
   display: block;
   margin-bottom: 9px ;
- 
+}
+.contacts-item:last-child {
+  margin-bottom: 0;
 }
 .gallery{
   padding-top: 94px;
